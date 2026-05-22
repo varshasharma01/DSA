@@ -1,0 +1,15 @@
+# let's say we want to print number from 1 to N  there are two methods one is head and another is tail
+
+# using tail recursion
+
+def print_num(i,n):
+    
+    if i>n:
+        return
+    else:
+        print(i)
+        return  (print_num(i+1, n))
+       
+    
+print(print_num(1,5))
+        
